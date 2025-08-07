@@ -28,5 +28,5 @@ async def chatbot(prompt_data: PromptModel):
 @app.get('/health-check')
 async def healthcheck():
     return {
-        "output": "Educify chatbot API is active!"
+        "output": "Chaimbase chatbot API is active!"
     }
