@@ -1,0 +1,6 @@
+.vscode
+.venv
+.env
+/vector_store
+tracked.json
+__pycache__
