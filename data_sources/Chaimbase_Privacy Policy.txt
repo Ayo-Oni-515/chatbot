@@ -1,0 +1,166 @@
+
+
+Privacy Policy
+
+Compliance & Privacy Department-  Chaimbase LTD
+
+Developed by- Paul Omolola 
+Date: July 26th, 2025
+
+
+
+
+1. Introduction
+ChaimBase is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and share your personal data, ensuring compliance with the Nigeria Data Protection Act (NDPA). By using SAFETY App, you agree to the terms of this policy.
+By using SAFETY App you agree to this Policy. If you do not, please delete the App or send us an email at privacy@chaimbase.com.
+
+2. What counts as "personal information"?
+Any detail that can identify you or be linked to you. Examples: your name, phone number, exact location, bank details, photos you upload, even the type of phone you use.
+
+3.Information we collect
+We collect the following categories of personal data to deliver our services:
+   3.1 Information you give us
+* Profile details: name, phone number, e-mail, optional profile photo.
+* Government ID: National Identification Number (NIN) and a photo of your driver's licence if you register as a responder or vendor.
+* Vehicle details: licence-plate number, make, model, colour and photo of the vehicle if you register a tow truck or if you tell us which car needs towing.
+* Health information: blood group, allergies, medical conditions, emergency drugs-only if you choose to add them.
+* Emergency contacts: names and phone numbers of people you want us to alert during an incident.
+* Payment details: your card number is never stored; we receive only an encrypted token plus the last four digits.
+* Safety Market orders: delivery address and any special instructions.
+* Feedback & chat messages: when you write to support or rate a service.
+
+   
+   3.2 Information we collect automatically
+* Location: precise GPS when the App is open or running in the background; coarse location (local government area) when the App is closed.
+* Device information: model, operating system, unique device ID, IP address, battery level, network carrier.
+* Log data: crash reports, pages viewed, buttons clicked and time spent.
+* Incident evidence: photos, short videos or voice notes you attach to a request.
+* Cookies & similar tools: small files stored on your device to remember your choices and keep you logged in.
+
+
+3.3 Information from third parties
+* Payment gateways (Paystack/Flutterwave) confirm whether your payment succeeded.
+* If you sign in with Google, we receive your basic profile from Google.
+* Government agencies may send us licence numbers to verify responders.
+
+
+4. Why we use your information
+We only use your personal information for the reasons below and only when the law allows us:
+* To create and manage your account.
+* To verify responders' identity and vehicles before they can accept jobs.
+* To verify the car you want towed (even if it is not yours) so the right truck is dispatched.
+* To connect you with the closest qualified responder (ambulance, fire truck, tow truck, security).
+* To share critical health data with medics or firefighters so they know what to do.
+* To process payments for services or Safety Market products.
+* To send SMS or push notifications about your request (ETA, arrival, delivery).
+* To alert your emergency contacts during an incident.
+* To investigate complaints, prevent fraud and keep the platform safe.
+* To improve the App (for example, fixing bugs or adding new features).
+* To send you safety tips or promotional messages if you opt in.
+* To obey court orders or requests from law enforcement (for example, sharing incident photos with the Police or FRSC when legally required).
+
+
+5. The legal bases we rely on (NDPA 2023)
+* Consent: for marketing messages, storing health data, or sharing photos beyond the basic service.
+* Contract: to open your account and provide the services you request.
+* Legal obligation: to keep tax records or respond to a lawful request.
+* Vital interests: to protect your life or the life of another person during an emergency.
+* Legitimate interests: for fraud prevention and platform security.
+
+
+6. Who we share your information with
+We only share with the following parties, and only the minimum they need:
+* VerifyMe Nigeria - to confirm responder identity, driver's licence and vehicle plate.
+* Emergency responders - ambulance, fire, towing or security companies that accept your request.
+* Payment processors - Paystack and Flutterwave to handle your card or bank payments.
+* Safety Market vendors - sellers who need your delivery address and phone number to ship your order.
+* Third-Party SDKs and Services- We integrate third-party SDKs (e.g., for maps, payments, analytics), and these providers may collect data as described in their own privacy policies. This may include services like Google Maps, Firebase, and payment gateways.
+* Government agencies - Police, FRSC or fire service when the law requires us to share evidence.
+* Customer-support tools - our ticketing system stores chat logs for 90 days.
+We do not sell, rent or trade your personal information.
+
+
+7. How long we keep your information
+Table 7.1
+Information
+How long
+Reason
+Profile and contact details
+5 years after last use
+NDPA requirement for user records
+VerifyMe verification logs
+90 days
+VerifyMe retention policy
+Vehicle details (for towing)
+3 years after last incident
+Incident reference
+Location history
+3 years
+Incident analysis
+Health data
+3 years
+Medical follow-up
+Payment records
+7 years
+Tax and accounting laws
+Incident photos/videos
+5 years or longer if a legal case is active
+Evidence
+Marketing opt-out list
+Indefinitely
+Respect your choice
+You can ask for earlier deletion (see Section 11).
+
+
+8. Data Security- Keeping your information safe
+* All data is encrypted with AES-256 while stored and TLS 1.3 while moving.
+* Only staff who need the data to do their job can access it (role-based access).
+* We run security audits every quarter and fix any weak points.
+* Lost or stolen devices can be remotely wiped.
+* We never store your full card number-only tokens from the payment gateway.
+
+
+9. Your rights under the Nigeria Data Protection Act
+* Right to access: download a copy of your data in the App or ask us by email.
+* Right to correct: update wrong information in your profile or contact support.
+* Right to delete: delete your account in Settings > Privacy.
+* Right to object: stop any processing you do not agree with (for example, marketing SMS).
+* Right to withdraw consent: turn off any consent toggles in Settings at any time.
+* Right to complain: send a complaint to the Nigeria Data Protection Bureau at complaints@ndpb.gov.ng.
+We will respond to your request within 15 working days.
+
+
+10. Cross-Border Data Transfers
+If personal data is transferred outside Nigeria, we ensure:
+* Encryption during transmission.
+* Contracts guaranteeing adequate protection in the destination country.
+
+
+11. How to exercise your rights
+Email: privacy@chaimbase.com
+In-App: Settings > Privacy Centre
+
+
+12. Children
+SAFETY App is not directed at children under 13. If we discover that a child under 13 has registered, we will delete the account unless we have verifiable parental consent.
+
+
+13. Data Breach Notification
+In the event of a data breach that poses a risk to user rights, Chaimbase will notify affected users and the Nigeria Data Protection Bureau as required by law.
+
+
+14. Changes to this Policy
+We will notify you of any important changes by:
+* An in-app pop-up, and
+* An email or SMS.
+The latest version will always be available at https://www.chaimbase.com/privacy.
+
+
+15. Contact us
+Privacy Officer: Paul Omolola
+Address- 13 DCSS Street, U3 Estate, Lekki Phase 1, Lagos. Nigeria
+Email: privacy@chaimbase.com
+
+
+
+

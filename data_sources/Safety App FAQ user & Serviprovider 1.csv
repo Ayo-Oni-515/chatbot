@@ -1,0 +1,21 @@
+﻿FAQ ID,Category,Question,Answer
+U-001,"Registration	",How do I register on the app?,"Enter your phone number, verify via OTP, and
+ select “User” during role selection."
+U-002,"Services	","What services are currently available?	","The app currently supports Towing Requests in Lagos, Nigeria."
+U-003,Request Flow,"How do I request a towing service?	","From the Home screen, tap “Towing,” enter location details, and submit your request."
+U-004,"Payment	",How do I pay for a towing service?,"For now, you pay directly to the provider via bank transfer."
+U-005,Pricing,"How is service pricing determined?	","Pricing is dynamic and based on distance, location, vehicle type, and urgency — similar to ride-hailing apps."
+U-006,Tracking,"Can I track my towing request?	",Yes. You can monitor progress via the “Current Activity” section on the Home screen.
+U-007,Availability,"Where is the service currently available?	",Towing is currently available within Lagos. Expansion to other services and cities is coming.
+U-008,"Account Management	","Can I switch my role from User to Provider later?	",Not currently via the app. You’ll need to re-register with a different phone number.
+U-009,Safety & Verification,Are service providers verified?,"Yes, all towing providers go through ID and license verification before approval."
+U-010,Support,"How do I contact support if I face issues?	",Use the “Help” or “Contact Support” option in the app (or call the helpline shown on the homepage if live).
+U-011,Availability,What happens if no tow truck is available?,"If no provider accepts your request within a few minutes, 
+you'll be notified and given the option to try again."
+U-012,Availability,Is the service available 24/7?,Yes. SafetyApp operates 24/7 in supported locations. Availability of providers may vary during off-peak hours.
+U-013,Request Management,Can I cancel my request?,Yes. You can cancel your request before it is accepted by a provider without any charge.
+U-014,Support,How do I contact support?,You can contact support through the in-app chat or by emailing support@chaimbase.com
+U-015,"Services	",What kind of vehicles can be towed?,"We currently support sedans, SUVs, and small trucks. Flatbeds are used for most standard tows."
+U-016,Request Management,Can I request help if I'm not the vehicle owner?,"Yes, you can request towing on behalf of someone else. Just ensure the location and contact info are accurate."
+U-017,Location,Is my location automatically detected?,"Yes, SafetyApp uses GPS to detect your location. You can also manually adjust it if needed."
+U-018,Request Management,What if my driver cancels or doesn't show up?,"Youâ€™ll be notified immediately, and can request another provider at no extra charge."

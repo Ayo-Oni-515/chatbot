@@ -1,0 +1,19 @@
+﻿FAQ ID,Category,Question,Answer
+SP-001,"Eligibility	","Who can become a Service Provider?	","Nigerian company or individual ≥18 yrs; owns a towing vehicle(s), holds valid licence/certification; 
+passes verification process;"
+SP- 002,Registration,How do I register as a provider?,"Enter your phone number, verify via OTP, and select “Service Provider” during role selection."
+SP-003,"Verification	",What documents do I need to provide?,"You must upload your NIN, Driver’s License, and Vehicle Plate Number."
+SP-004,Approval,How long does it take to get verified?,Verification are typically instantly documents are valid.
+SP-005,Request Flow,"How do I receive towing requests?	  ","Once logged in and approved, you’ll automatically receive alerts when a nearby user requests a tow."
+SP-006,"Job Matching	",How am I matched with a user?,"Matching is based on proximity, availability, and vehicle suitability."
+SP-007,Payment,"How do I get paid?	",Users currently pay you directly via bank transfer. Wallet system coming soon.
+SP-008,"Earnings	","Does SafetyApp take a commission?	",Yes. A service commission of 10–17% will be deducted per completed job.
+SP-009,"Availability	","Can I pause or go offline?	","This feature will be included in future versions. For now, simply ignore requests when unavailable."
+SP-010,"Switching Roles	","Can I also use the app as a requester?	",You’ll need to register a separate account with a different phone number to use the User mode.
+SP-011,"Support	","Who do I contact if I have problems with a job or payment?	","Use the in-app support function or call the hotline provided during onboarding.
+"
+SP-012,"Documents	","Which docs must I keep updated?	","Driver licence, professional cert, vehicle papers, insurance, bank details"
+SP-013,"Vehicle Safety	","Who is responsible for the car during service?	","Service Provider is liable for safe handling & transit; owner liable only for pre-existing defects; 
+"
+SP-014,"Insurance	","What insurance do I need?	",Min ₦5 m public-liability; upload renewal before expiry; lapse = suspension
+SP-015,Pricing,"How is pricing set?	",Dynamic (distance + time + service type)- (negotiation functionalities coming soon)

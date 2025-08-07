@@ -1,0 +1,18 @@
+﻿Issue,Possible Cause,Suggested Action
+I cant request a towing service,Location permissions not enabled; internet connectivity issues; outdated app version,"Ensure your GPS is turned on, you're connected to the internet, and your app is updated to the latest version."
+No tow truck is accepting my request,No nearby providers available or high demand period,"Wait a few minutes and try again, or adjust your pickup location if possible."
+My app keeps crashing,Corrupted app data or unsupported device version,"Try closing and reopening the app. If it persists, uninstall and reinstall the app from the app store."
+The tow truck hasn t arrived,Driver delay due to traffic or navigation issues,"Use the real-time tracker to check ETA. If excessive delay, contact support via in-app chat."
+Payment failed,"Insufficient funds, card declined, or unstable internet connection","Check your payment method, switch networks, or try another card or payment method."
+I accidentally requested a tow,Unintentional tap or misclick,Go to the active request screen and tap 'Cancel Request' immediately. No charges if not yet accepted.
+I didnt receive confirmation after my request,Network issues or app notification settings disabled,Check your internet connection and app notifications. You can also view your request status on the home screen.
+My vehicle type isnt listed,App doesn't yet support that vehicle class,Choose the closest matching option or contact support with your vehicle details.
+The app is showing the wrong pickup location,GPS drift or poor signal in your area,Manually adjust your location pin before confirming the request.
+I cant log into my account,Incorrect credentials or account not verified,Use the 'Forgot Password' option or check your email for verification steps.
+App won’t download/install,Incompatible device or low storage," Ensure device meets requirements (Android 8.0+ or iOS 14.0+).
+-Free up storage space.
+- Check internet connection (Wi-Fi or mobile data).
+-Try downloading from Google Play Store or Apple App Store again.
+"
+OTP not received,Incorrect phone number or network issue,
+ETA keeps increasing,"Traffic or provider delay	","1. Watch live ETA 2. Use in-app chat to ask provider 3. Cancel & re-book if >30 min	"
