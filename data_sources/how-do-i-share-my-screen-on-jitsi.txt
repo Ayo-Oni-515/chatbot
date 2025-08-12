@@ -1,0 +1,11 @@
+How do I share my screen on Jitsi?
+How do I share my screen on Jitsi?
+To sharer your screen , there are two options; one for desktop, another for mobile.
+
+On Desktop: Use the third to the left icon to share your screen
+
+Mobile: For mobile, we have two options for joining the meetings: 1, by joining in the browser and 2, by joining the mobile app.
+
+Option 1: By joining in the app, there is no "Share" option on mobile. You can only share on desktop. PLEASE TAKE NOTE OF THIS.
+
+Option 2: Joining in the mobile app. You have to install the app from the app store or the google play to use it on your device.  The screen sharing option is available by using the app as you can see in the picture below.

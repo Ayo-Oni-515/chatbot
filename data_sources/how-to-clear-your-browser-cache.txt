@@ -1,0 +1,27 @@
+How to Clear your Browser Cache
+How to Clear your Browser Cache
+Clearing your cache or clearing your browsing history is the same thing. We have presented various approaches here.
+
+You can clear your cache in the following ways depending on the browser you use:
+
+DESKTOP
+Google Chrome: For this browser, you can see this from the settings tab:
+Brave: for Brave desktop browser, you can find this (mac computers) Or from the 3 lines option to the right:You can also do this from the 3 lines option to the top RH corner.
+Opera: For Opera browser, it is similar to other browsersOr through the 3 dots to the bottom left corner of the browser
+Vivaldi: For Vivaldi browser, you have two options.
+Safari: For Safari, you can find this on the top menu of the browser:
+MS Edge: For Microsoft Edge, here is where you can find the "Clear Browsing Data".
+Mozilla Firefox : For Firefox, you have similar approach to the other browsers. You can do this from 'History" menu --> " Clear recent History" or from the application menu 3 lines to the RH top of the browser window ---> History ---> "Clear Recent History".You can also do this from the "History" menu.
+Tor Browser:
+
+MOBILE BROWSER
+
+Internet Explorer
+Chrome
+Brave
+Opera Touch
+Safari
+Duckduckgo
+Tor
+Dolphin :
+Phoenix
