@@ -1,0 +1,7 @@
+New Booking Notification
+New Booking Notification
+You get notified of new booking through Email and SMS( if your phone number is correct ands can receive sms).
+
+Check your email and log into your teacher dashboard to see new bookings under: 
+
+Just click on "Accept" or "Decline' options as appropriate. NB: You have to accept the request to have a valid teaching lesson. rejected request or unanswered request will be regarded as rejected.

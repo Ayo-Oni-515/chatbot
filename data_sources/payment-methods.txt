@@ -1,0 +1,8 @@
+Payment methods
+Payment methods   
+
+Payment methods on the platform include PayPal and Bank Transfer, with currency options such as USD OR CAD
+
+1. Paypal 
+
+2. Bank Transfer
