@@ -77,6 +77,6 @@ It utilizes an openly sourced LLM and an embedding model available on the OLLAMA
 ## Deploying on Runpod
 
     ```
-    chmod +x start_services.sh
-    ./start_services.sh &
+    chmod +x start.sh
+    ./start.sh &
     disown
