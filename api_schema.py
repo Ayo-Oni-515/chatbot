@@ -6,14 +6,14 @@ from datetime import datetime
 
 class PromptModel(BaseModel):
     user_id: str
-    # role: Literal["user", "service-provider"]
+    role: Literal["user", "service-provider"]
     session_id: UUID
     prompt: str
 
 
 class PromptResponseModel(BaseModel):
     user_id: str
-    # role: Literal["user", "service-provider"]
+    role: Literal["user", "service-provider"]
     session_id: UUID
     prompt: str
     timestamp: datetime
