@@ -1,12 +1,8 @@
 from fastapi import FastAPI, HTTPException  # noqa
-from pydantic import BaseModel
-
 from chatbot import ChatBot
+from datetime import datetime
 
-
-class PromptModel(BaseModel):
-    user_id: str
-    prompt: str
+from api_schema import PromptModel, PromptResponseModel  # noqa
 
 
 app = FastAPI()
@@ -17,12 +13,15 @@ bot = ChatBot().acompile()
 
 @app.post('/chatbot')
 async def chatbot(prompt_data: PromptModel):
-    config = {"configurable": {"thread_id": prompt_data.user_id}}
+    config = {"configurable": {"thread_id": prompt_data.session_id}}
     response = await bot.ainvoke({"messages": prompt_data.prompt}, config)
 
     return {
         "user_id": prompt_data.user_id,
-        "response": (response["messages"][-1]).content}
+        "role": prompt_data.role,
+        "response": (response["messages"][-1]).content,
+        "timestamp": datetime.now()
+        }
 
 
 @app.get('/health-check')

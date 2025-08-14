@@ -1,0 +1,6 @@
+#!/bin/bash
+# save as start_services.sh
+ollama serve &
+python -m uvicorn main:app --host 0.0.0.0 --port 8000 &
+
+wait

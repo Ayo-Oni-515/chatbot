@@ -2,14 +2,11 @@ import os
 import shutil
 from typing import Annotated, TypedDict, Optional, Literal  # noqa
 
-from langchain_ollama import ChatOllama
+from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
-from langchain_community.document_loaders import (DirectoryLoader,
-                                                  TextLoader,
-                                                  PyMuPDFLoader,
-                                                  CSVLoader)
+from langchain_community.document_loaders import (
+    DirectoryLoader, TextLoader, PyMuPDFLoader, CSVLoader)
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langgraph.graph.message import add_messages
@@ -85,14 +82,24 @@ class ChatBot():
     def __init__(self,
                  data_path: str = "./data_sources",
                  db_location: str = "./vector_store",
+                 user_db_location: str = "./user_vector_store",
+                 sp_db_location: str = "./sp_vector_store",
                  llm: str = "llama3.2:3b",
                  embedding_model: str = "mxbai-embed-large:335m",
                  ):
         self.data_path = data_path
         self.db_location = db_location
+        self.user_db_location = user_db_location
+        self.sp_db_location = sp_db_location
+
+        # Initialize the graph's memory saver
         self.memory = MemorySaver()
 
-        self.llm = ChatOllama(model=llm)
+        try:
+            self.llm = ChatOllama(model=llm)
+        except Exception as e:
+            raise Exception(e.args)
+
         self.router_llm = self.llm.with_structured_output(RouteDecision)
         self.judge_llm = self.llm.with_structured_output(RagJudge)
         self.answer_llm = self.llm
@@ -123,19 +130,23 @@ class ChatBot():
 
     def initialize_embedding(self):
         """returns chatbot's embedding model used for vectorizing chunks"""
-        # handle
-        return OllamaEmbeddings(model=self.embedding_model)
+        try:
+            return OllamaEmbeddings(model=self.embedding_model)
+        except Exception as e:
+            raise Exception(e.args)
 
     def initialize_text_splitter(self):
         """returns chatbot's recursive character text
             splitter used for chunking"""
-        # handle
-        return RecursiveCharacterTextSplitter(
-            chunk_size=1000,
-            chunk_overlap=200,
-            length_function=len,
-            add_start_index=True
+        try:
+            return RecursiveCharacterTextSplitter(
+                chunk_size=1000,
+                chunk_overlap=200,
+                length_function=len,
+                add_start_index=True
             )
+        except Exception as e:
+            raise Exception(e.args)
 
     def load_documents(self):
         """loads knowledge sources into a list of 'Document' objects
@@ -163,8 +174,7 @@ class ChatBot():
                     loader_class if extension == ".pdf" else (
                         lambda path: loader_class(
                             path, encoding="utf-8"))),
-                show_progress=True,
-                use_multithreading=True)
+                show_progress=True)
             documents.extend(loader.load())
 
         return documents
@@ -172,23 +182,28 @@ class ChatBot():
     def save_to_chroma(self, chunks: list[Document]):
         """returns a chroma client used to query the vector database"""
         # handle
+        try:
+            # Clear out the database first.
+            if os.path.exists(self.db_location):
+                shutil.rmtree(self.db_location)
 
-        # Clear out the database first.
-        if os.path.exists(self.db_location):
-            shutil.rmtree(self.db_location)
+            db = Chroma.from_documents(
+                documents=chunks,
+                embedding=self.initialize_embedding(),
+                persist_directory=self.db_location
+            )
 
-        db = Chroma.from_documents(
-            documents=chunks,
-            embedding=self.initialize_embedding(),
-            persist_directory=self.db_location
-        )
-
-        return db
+            return db
+        except Exception as e:
+            raise Exception(e.args)
 
     def run(self):
         """runs the indexing process: loading + splitting + chunking"""
         # handle
-        documents = self.load_documents()
+        try:
+            documents = self.load_documents()
+        except Exception as e:
+            raise Exception(e.args)
 
         # keeps track of all chunked documents
         loaded_documents = [
