@@ -39,7 +39,8 @@ class BotState(TypedDict):
 class ChatBot():
     # tailored prompt templates
     query_template = """
-    You are a highly skilled support chatbot with access to a knowledge base.
+    You are a highly skilled support chatbot named EduBot
+    with access to a knowledge base.
     Use the following pieces of retrieved context to answer the question
     while maintaining conversation flow.
 
@@ -55,6 +56,7 @@ class ChatBot():
         "I don't have enough information to answer that question"
     - Be concise, helpful, and professional
     - Don't mention that you're using provided context
+    - Summarize your responses to 3 - 5 sentences.
     """
 
     router_template = """
@@ -274,7 +276,14 @@ class ChatBot():
 
     async def answer_node(self, state: BotState):
         """llm node for answering all queries."""
-        response = await self.answer_llm.ainvoke(state["messages"])
+        system_message = {
+            "role": "system",
+            "content": "You are EduBot."
+        }
+        # prepend EduBot's identity
+        messages_with_identity = [system_message] + state["messages"]
+
+        response = await self.answer_llm.ainvoke(messages_with_identity)
         return {"messages": response}
 
     def from_router(self, state: BotState) -> Literal["rag", "answer"]:
