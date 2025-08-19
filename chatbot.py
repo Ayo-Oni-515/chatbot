@@ -278,7 +278,8 @@ class ChatBot():
         """llm node for answering all queries."""
         system_message = {
             "role": "system",
-            "content": "You are EduBot."
+            "content": """You are EduBot. Introduce yourself at the
+            start of a conversation"""
         }
         # prepend EduBot's identity
         messages_with_identity = [system_message] + state["messages"]
