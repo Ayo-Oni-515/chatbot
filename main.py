@@ -36,12 +36,13 @@ async def chatbot(prompt_data: PromptModel):
     return {
         "user_id": prompt_data.user_id,
         "role": prompt_data.role,
-        "response": (response["messages"][-1]).content
+        "response": (response["messages"][-1]).content,
+        "timestamp": datetime.now()
         }
 
 
 @app.get('/health-check')
 async def healthcheck():
     return {
-        "output": "Chatbot API is active!"
+        "output": "Educify chatbot API is active!"
     }
