@@ -1,5 +1,5 @@
 import os
-import shutil
+import shutil  # noqa
 from typing import Annotated, TypedDict, Optional, Literal  # noqa
 
 from langchain_ollama import ChatOllama, OllamaEmbeddings
@@ -39,8 +39,8 @@ class BotState(TypedDict):
 class ChatBot():
     # tailored prompt templates
     query_template = """
-    You are a highly skilled support chatbot named EduBot
-    with access to a knowledge base.
+    You are a highly skilled support chatbot named EduBot built for an edtech
+    company named educify, you have access to a knowledge base.
     Use the following pieces of retrieved context to answer the question
     while maintaining conversation flow.
 
@@ -49,14 +49,14 @@ class ChatBot():
     question: {question}
 
     Instructions:
-    - Provide detailed answers when the context supports it
+    - Provide answers when the context supports it
     - Use your general knowledge if the
         context doesn't cover the question
     - If you don't know the answer, say
         "I don't have enough information to answer that question"
     - Be concise, helpful, and professional
-    - Don't mention that you're using provided context
-    - Summarize your responses to 3 - 5 sentences.
+    - Don't mention that you're using provided context or a knowledge base
+    - Make your responses as short as possible.
     """
 
     router_template = """
@@ -82,14 +82,19 @@ class ChatBot():
     """
 
     def __init__(self,
-                 data_path: str = "./data_sources",
+                 # data_path: str = "./data_sources",
+                 student_data_path: str = "./data_sources/student",
+                 teacher_data_path: str = "./data_sources/teacher",
                  db_location: str = "./vector_store",
                  student_db_location: str = "./student_vector_store",
                  teacher_db_location: str = "./teacher_vector_store",
                  llm: str = "llama3.2:3b",
                  embedding_model: str = "mxbai-embed-large:335m",
                  ):
-        self.data_path = data_path
+        # self.data_path = data_path
+        self.student_data_path = student_data_path
+        self.teacher_data_path = teacher_data_path
+
         self.db_location = db_location
         self.student_db_location = student_db_location
         self.teacher_db_location = teacher_db_location
@@ -115,18 +120,45 @@ class ChatBot():
         self.retrieval_judging_template = ChatPromptTemplate.from_template(
             ChatBot.retrieval_judge_template)
 
-        documents_directory = os.listdir(self.data_path)
-        tracked_documents = load_from_json()
+        # documents_directory = os.listdir(self.data_path)
+        student_documents_directory = os.listdir(self.student_data_path)
+        teacher_documents_directory = os.listdir(self.teacher_data_path)
 
-        if sorted(documents_directory) != sorted(tracked_documents):
+        # tracked_documents = load_from_json()
+        tracked_student_documents = load_from_json(
+            file_path="./tracked_student.json")
+        tracked_teacher_documents = load_from_json(
+            file_path="./tracked_teacher.json")
+
+        if (sorted(student_documents_directory) != sorted(
+                tracked_student_documents)) and (
+                    sorted(teacher_documents_directory) != sorted(
+                        tracked_teacher_documents)):
             chunks = self.run()
 
             # ensures vectorizing is done only once on document update
-            self.vector_store = self.save_to_chroma(chunks)
+            self.vector_store = self.save_to_chroma(
+                chunks[0], db_location=self.db_location)
+            self.vector_store = self.save_to_chroma(
+                chunks[1], db_location=self.db_location)
+
+            self.student_vector_store = self.save_to_chroma(
+                chunks[0], db_location=self.student_db_location)
+            self.teacher_vector_store = self.save_to_chroma(
+                chunks[1], db_location=self.teacher_db_location)
+
         else:
-            # initializes a chroma client
+            # initializes chroma clients
             self.vector_store = Chroma(
                 persist_directory=self.db_location,
+                embedding_function=self.initialize_embedding()
+            )
+            self.student_vector_store = Chroma(
+                persist_directory=self.student_db_location,
+                embedding_function=self.initialize_embedding()
+            )
+            self.teacher_vector_store = Chroma(
+                persist_directory=self.teacher_db_location,
                 embedding_function=self.initialize_embedding()
             )
 
@@ -150,7 +182,7 @@ class ChatBot():
         except Exception as e:
             raise Exception(e.args)
 
-    def load_documents(self):
+    def load_documents(self, data_path: str):
         """loads knowledge sources into a list of 'Document' objects
 
         load documents from a directory (supported formats .pdf, .md, .txt)
@@ -159,7 +191,7 @@ class ChatBot():
         # only stores new sources
         # include web scraper
 
-        data_path = self.data_path
+        # data_path = self.data_path
         documents = []
 
         document_extensions = {
@@ -181,18 +213,18 @@ class ChatBot():
 
         return documents
 
-    def save_to_chroma(self, chunks: list[Document]):
+    def save_to_chroma(self, chunks: list[Document], db_location):
         """returns a chroma client used to query the vector database"""
         # handle
         try:
             # Clear out the database first.
-            if os.path.exists(self.db_location):
-                shutil.rmtree(self.db_location)
+            # if os.path.exists(db_location):
+            #     shutil.rmtree(db_location)
 
             db = Chroma.from_documents(
                 documents=chunks,
                 embedding=self.initialize_embedding(),
-                persist_directory=self.db_location
+                persist_directory=db_location
             )
 
             return db
@@ -203,22 +235,34 @@ class ChatBot():
         """runs the indexing process: loading + splitting + chunking"""
         # handle
         try:
-            documents = self.load_documents()
+            student_documents = self.load_documents(self.student_data_path)
+            teacher_documents = self.load_documents(self.teacher_data_path)
         except Exception as e:
             raise Exception(e.args)
 
         # keeps track of all chunked documents
-        loaded_documents = [
-            os.path.basename(doc.metadata["source"]) for doc in documents]
+        loaded_student_documents = [
+            os.path.basename(
+                doc.metadata["source"]) for doc in student_documents]
+
+        loaded_teacher_documents = [
+            os.path.basename(
+                doc.metadata["source"]) for doc in teacher_documents]
 
         # save loaded documents to a json file
-        save_to_json(data_to_save=list(set(loaded_documents)))
+        save_to_json(data_to_save=list(set(loaded_student_documents)),
+                     file_path="./tracked_student.json")
+        save_to_json(data_to_save=list(set(loaded_teacher_documents)),
+                     file_path="./tracked_teacher.json")
 
-        chunks = (self.initialize_text_splitter()).split_documents(
-            documents
+        student_chunks = (self.initialize_text_splitter()).split_documents(
+            student_documents
+        )
+        teacher_chunks = (self.initialize_text_splitter()).split_documents(
+            teacher_documents
         )
 
-        return chunks
+        return (student_chunks, teacher_chunks)
 
     async def router_node(self, state: BotState):
         """core router node responsible for properly forwarding queries
@@ -241,24 +285,34 @@ class ChatBot():
 
         return {"route": route_decision.route}
 
-    async def aretrieve(self, state: BotState):
-        """query the vector store asynchronously to retrieved context"""
+    async def aretrieve(self, state: BotState, config):
+        """query the vector store asynchronously
+        to retrieved context based on user role"""
+        role = config.get("configurable", {}).get("role", None)
+
+        if role == "student":
+            vector_store = self.student_vector_store
+        elif role == "teacher":
+            vector_store = self.teacher_vector_store
+        else:
+            vector_store = self.vector_store
+
         if len(state["messages"]) == 0:
             # Initial state: start of the conversation
 
-            retrieved_docs = await self.vector_store.asimilarity_search(
+            retrieved_docs = await vector_store.asimilarity_search(
                 (state["messages"]).content)
             return {"context": retrieved_docs}
         else:
             # Subsequent state: other conversations
 
-            retrieved_docs = await self.vector_store.asimilarity_search(
+            retrieved_docs = await vector_store.asimilarity_search(
                 (state["messages"][-1]).content)
             return {"context": retrieved_docs}
 
-    async def agenerate(self, state: BotState):
+    async def agenerate(self, state: BotState, config):
         """reconstructs the query based on retrieved context"""
-        context = await self.aretrieve(state)
+        context = await self.aretrieve(state, config)
 
         docs_content = "\n\n".join(
             doc.page_content for doc in context["context"])
@@ -274,12 +328,34 @@ class ChatBot():
         # print(state["messages"])
         return {"messages": state["messages"]}
 
-    async def answer_node(self, state: BotState):
+    async def answer_node(self, state: BotState, config):
         """llm node for answering all queries."""
+        role = config.get("configurable", {}).get("role", None)
+
+        if role is None:
+            role = "student or teacher"
+
         system_message = {
             "role": "system",
-            "content": """You are EduBot. Introduce yourself at the
-            start of a conversation"""
+            "content": f"""You are EduBot.
+            You are a highly skilled support chatbot for company named educify,
+            you have access to a knowledge base tailored for a {role}'s
+            on educify.
+
+            Instructions:
+            - Don't hallucinate.
+            - Introduce yourself only at the start of a conversation.
+            - Answer questions using Educify as context always.
+            - Use your general knowledge if the
+                context doesn't cover the question
+            - If you don't know the answer, say
+                "I don't have enough information to answer that question"
+            - Provide answers when the context supports it
+            - Be concise, helpful, and professional
+            - Don't mention that you're using provided
+                context or a knowledge base
+            - Make your responses as short as possible.
+            """
         }
         # prepend EduBot's identity
         messages_with_identity = [system_message] + state["messages"]

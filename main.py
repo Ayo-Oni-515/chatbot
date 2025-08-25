@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException  # noqa
 from pydantic import BaseModel
-from typing import Literal
+from typing import Literal, Optional
 from uuid import UUID
 from datetime import datetime
 
@@ -9,16 +9,16 @@ from chatbot import ChatBot
 
 class PromptModel(BaseModel):
     user_id: str
-    role: Literal["student", "teacher"]
+    role: Optional[Literal["student", "teacher"]] = None
     session_id: UUID
     prompt: str
 
 
 class PromptResponseModel(BaseModel):
     user_id: str
-    role: Literal["student", "teacher"]
+    role: Optional[Literal["student", "teacher"]] = None
     session_id: UUID
-    prompt: str
+    response: str
     timestamp: datetime
 
 
@@ -30,7 +30,11 @@ bot = ChatBot().acompile()
 
 @app.post('/chatbot')
 async def chatbot(prompt_data: PromptModel):
-    config = {"configurable": {"thread_id": prompt_data.session_id}}
+    config = {"configurable": {
+            "thread_id": prompt_data.session_id,
+            "role": prompt_data.role
+            }
+        }
     response = await bot.ainvoke({"messages": prompt_data.prompt}, config)
 
     return {
