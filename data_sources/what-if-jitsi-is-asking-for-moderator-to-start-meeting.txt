@@ -1,8 +1,0 @@
-What if Jitsi is asking for Moderator to start meeting?
-What if Jitsi is asking for Moderator to start meeting?
-
-If you are a teacher and in a strange event, it is asking you to wait for moderator to start meeting ( See picture). 
-
-WORKAROUND: The workaround is to login with your gmail account or your email account by clicking the "login" button. This should hand over control to you and you are good to go. You can subsequently share the meeting with your students.
-
-NB: This should not happen on Educify platform. If you encounter this issue, Send an email to support@educify.org.

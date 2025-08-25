@@ -1,7 +1,0 @@
-Not able to sign/log in??
-Not able to sign/log in??
-
-If you are not able to sign/log into your Educify account, It might be due to a number of issues or reasons:
-
- You maybe signed up with google option. Remember how you signed up and use same option to sign or login. You can find the option on the login page (See the image below).
-The second issues is that you can have the emails in spam folder (provided that you signed up with email and password option). Please do click "Not spam" from your spam or Junk folder if you do find the email.

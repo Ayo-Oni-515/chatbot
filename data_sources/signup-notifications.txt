@@ -1,4 +1,0 @@
-Signup notifications
-Signup notifications
-
-As expected, there will be a confirmation of registration, stating a successful registration.

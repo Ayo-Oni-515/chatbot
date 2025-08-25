@@ -1,6 +1,0 @@
-How do I add or delete a lesson?
-How do I add or delete a lesson/Subject?
-
-Here you can edit and delete the lessons you teach when you click on the "Manage Listing" option.
-
-To delete a   lesson click the To add a lesson, You need to click the add new  lesson button. Just click the red 'X' and the lesson will be deleted.

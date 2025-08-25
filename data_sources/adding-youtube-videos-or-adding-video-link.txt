@@ -1,4 +1,0 @@
-Adding Youtube Videos or Adding Video Link
-Adding Youtube Videos or Adding Video Link
-
-Adding a video is very simple because, you have 3 options to add video. This help topic is about YouTube links. Note that only Youtube link copied from the top of the Youtube page is allowed at this time( No other links from other sources like : Vimeo, Dropbox, Google Drive etc are supported). See Example of YouTube Link below: (Remember to only add your own YouTube video. NO RANDOM VIDEO WILL BE TOLERATED. PROFILES WITH RANDOM YOUTUBE VIDEOS WILL BE DEACTIVATED IMMEDIATELY).
