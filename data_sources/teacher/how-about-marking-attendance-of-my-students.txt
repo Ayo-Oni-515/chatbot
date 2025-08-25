@@ -1,0 +1,8 @@
+How about marking attendance of my students?
+How about marking attendance of my students?
+
+Mark student attendance in the "Calendar" menu, facilitating faster payment processing.
+
+Go to the Calendar section, find the lesson, and click the checkbox for the lesson date.
+
+The marking itself would look like the image below. There are three options for attendance: Present, Missing and Cancelled.

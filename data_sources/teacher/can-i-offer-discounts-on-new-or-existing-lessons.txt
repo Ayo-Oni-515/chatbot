@@ -1,0 +1,33 @@
+Can I offer discounts on new or existing lessons
+1. Discounts for New Students
+Welcome Lesson Discount: Offer 20% off their first lesson booked on the Educify platform.
+
+Trial Bundle Offer: Buy a package of 5 lessons and get the 6th free.
+
+Referral Discount: New students referred by an existing student get 10% off their first 3 lessons; the referring student also gets 10% off their next lesson.
+
+2. Discounts for Existing Students
+Loyalty Reward: After completing 10 lessons, students receive 15% off their next lesson or bundle.
+
+Upgrade Bonus: Existing students who enroll in a new subject or higher-level course get 10–20% off the first lesson in that course.
+
+Seasonal Promotions: Special Educify discounts during holidays (e.g., “Back-to-School: 15% off all lessons this September”).
+
+3. Platform-Specific Implementation Tips
+Automated Reminders: When students are eligible for a discount (loyalty, referral, seasonal), Educify automatically sends a notification.
+
+Clear Display: Show discounted prices clearly in the lesson booking flow so students know exactly what they’re saving.
+
+Limited-Time Incentives: Add countdown timers or limited-availability banners for promotional discounts to encourage quick sign-ups.
+
+Certainly, you can offer discounts for your lessons on Educify. 
+
+To do this:
+
+Login to Educify: Access your Educify account and navigate to the section where you manage your lessons or courses. 
+
+Set Pricing: Within the platform, there should be an option to set prices for your lessons. Adjust the pricing to reflect the discount you want to offer.
+
+Specify Discount Details: Clearly communicate the discount details, including the discounted price and any conditions or time limitations, in the lesson description or promotional materialss
+
+Promote the Discount: Utilize Educify's promotional features or share the discount information through other channels to attract learners.

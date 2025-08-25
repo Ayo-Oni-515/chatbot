@@ -1,0 +1,16 @@
+How to check for upcoming scheduled classes and other information
+How to check for upcoming scheduled classes and other information
+
+Checking for scheduled upcoming classes, all you need to do is to click on "my lessons" menu on the dashboard and then you will find all the informations about classes such as upcoming classes, time, action, and all others.
+
+Lessons: This shows you all lessons and classes registered for, and a list of courses chosen which will be arranged in order of proximity to the time of their lessons on various courses.
+
+Date: It shows the dates of all lessons which have been scheduled. There are also room for rescheduling if there are any inconvenient circumstances.
+
+Lesson Time: Here, you will find the time allocated to each class based on the time zone activated at the top right of the board. Lessons time can also be rescheduled.
+
+Status: It indicates the nature of the class to be attended; online class, teachers place or studio class. And also it indicates other natures as will be stated there.
+
+Actions: The actions specified for each classes simply indicates the attendance and reactions to every class; (attended lessons, postponed lessons, missed lessons and others).
+
+This ensures and also serve as a guide and proof of attendance to student and for parental controls. 

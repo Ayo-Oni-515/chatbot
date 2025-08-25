@@ -1,0 +1,37 @@
+What options are available on the video classes?
+Here are the lists of the options available for you to have smooth video class on educify platform.
+
+Recommended browsers: Google Chrome, Internet Explorer, Brave browser
+
+Mobile Broswers not recommended: Opera
+
+When you click on "Start Lesson" the opotions given to you are: Join in App and Join in Browser. Do NOT choose Join in App but the Browser option. The phone option is also available but you know you can't use video vai phone.
+
+You can share the meeting link with a student or teacher, giving them the dial in PIN: remember they have to use 8X8.VC/Javascript in the browser and then use the PIN.
+
+You can share Youtube or video link during the lessons.
+
+NB: The mobile browser version does not have the "Share screen' option. It does have the show Whiteboard.
+
+The whiteboard is what you can use to share important lessons or teach subjects like mathematics etc. it is very useful for sharing documents. it is not optimized for mobile but better on desktop.
+
+OPTIONS AND SETTINGS DURING LESSON
+
+Some of the options include:
+
+Toggle Camera
+Performance setting
+View full screen
+Security option
+Share video (No Share screen on mobile view)
+Noise Suppression
+Select Background
+Participants stats
+Settings
+The Whiteboard on mobile view.
+
+The settings in the video view looks like this:
+
+The performance setting looks like this:
+
+End of the session:

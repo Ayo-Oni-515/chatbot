@@ -1,0 +1,51 @@
+Payout and statements
+
+Payout and statements
+
+How Tutor Payouts Work
+Monthly Payout Cycle
+Tutors are paid on a monthly basis, with payouts scheduled within the first week of the following month—providing clear expectations and consistency.
+
+Minimum Earning Threshold
+Payouts are processed when your earnings exceed $30, similar to industry norms where minimum thresholds ensure efficient processing .
+
+Secure Payment Methods
+Payments are issued via trusted third-party processors such as PayPal, Stripe, Payoneer, or bank transfer. The exact method used will be the one you've selected in your account, and details must be accurate to ensure smooth delivery.
+
+How to Access Your Payment Statements
+Tutor Dashboard Access
+Your detailed statement—including session history, total earnings, platform fees, and net payout—is available on your dashboard. You can view, download, and export these statements at any time for personal or tax use.
+
+Invoice and Breakdown Details
+Each statement includes:
+
+Session dates and times
+
+Number of sessions and hours taught
+
+Rate per session or hourly rate
+
+Any applicable platform commissions or fees
+
+Gross earnings and final net amount
+
+Why This System Works
+Transparency: Clearly defined payout schedules and thresholds eliminate confusion and payment delays, aligning with industry standards.
+
+Security & Reliability: Leveraging established third-party payment processors provides both protection and compliance—safeguarding both tutors and students.
+
+Efficiency: Ready access to detailed statements enables streamlined accounting and reporting for tutors, reducing administrative overhead.
+
+Sample Help Center Entry
+Q: When will I receive my payouts, and where can I find my earnings details?
+A:
+
+Payouts are processed monthly, if your earnings exceed $30.
+
+You'll receive payment via your selected trusted payment platform (e.g., PayPal, Payoneer, or bank transfer).
+
+To review your earnings, log in to your Tutor Dashboard and navigate to the “Payouts” or “Statements” tab. Here you'll find a detailed breakdown of your sessions, fees, and net payout—downloadable for your records.
+
+▪️Here you can view the total money you earned on educify.
+
+▪️Here you can view the transactions of your classes to your account

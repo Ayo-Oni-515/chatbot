@@ -1,0 +1,10 @@
+Error messages you might encounter while signing up and how to solve them
+Some problems you might encounter while signing up are:
+
+Error registering teacher
+
+ - This might be as a result of not entering complete details, or entering the wrong details.
+
+To solve this :
+
+ You will have to confirm that the details you have entered into the fields, are the right details and that you filled all the required fields.

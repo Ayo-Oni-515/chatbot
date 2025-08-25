@@ -1,0 +1,14 @@
+Not sure of which payment method is accepted
+Accepted Payment methods
+
+Here you can view and change the way you get paid, either by a Bank transfer or by Paypal. The two accepted payment methods depends on your preferred choice;
+
+▪️Paypal
+
+▪️Bank Transfer
+
+BANK TRANSFER : You can pay by bank transfer by entering your bank details.
+
+▪️To input your payment details or your bank details, you need to click the plus box by the left hand side of the word 'bank transfer'.
+
+▪️You can also receive payments by PayPal by entering your PayPal details, by clicking the plus button by the left hand side of the word 'PAYPAL'.

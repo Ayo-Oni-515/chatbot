@@ -1,0 +1,55 @@
+What of students with a different time zone?
+
+ Managing Classes Across Time Zones – Reminders & Accuracy
+At Educify, we do our best to help you stay on track—no matter where your students are located. Here's how we handle time-zone reminders and what you can do to ensure flawless coordination:
+
+Reminder Schedule
+Automated Reminders Sent
+
+1 day before the lesson
+
+1 hour before the lesson
+
+Educify automatically adjusts reminders based on both your and the student’s detected time zones. This helps minimize confusion, especially when teaching across regions that observe Daylight Saving Time.
+
+Double-Check the Time – Just to Be Sure
+While our system makes every effort to display lesson times correctly, it’s always smart to double-check—especially since timezone discrepancies can still happen due to device settings or DST shifts.
+
+We recommend:
+
+Use tools like timeanddate.com or Google to convert your scheduled time and confirm accuracy.
+
+State both your local time and the student's local time when confirming a schedule (e.g., “Our session is set for 10 AM your time / 4 PM my time”).
+
+If You Notice a Mismatch
+If the reminder shows the wrong time or there’s a DST-related error, please let us know before the class:
+
+Contact Support immediately via the educator dashboard or email.
+
+Provide:
+
+Your lesson date and time as it appears
+
+Your device’s time zone setting
+
+The student’s time zone, if known
+
+We’ll investigate and fix any issues promptly.
+
+Educify Help Center – Sample FAQ
+Q: “Will I get reminders for my classes, even if my student is in a different time zone?”
+A: Absolutely! Educify sends reminders 1 day and 1 hour before each lesson, adjusted to both your and the student's time zones. Always double-check the converted time using Google or another reliable tool. If anything looks off—or you’re concerned about DST—reach out to Support so we can help confirm or correct it ahead of time.
+
+Communication: Establish clear communication channels to stay updated on any schedule changes or adjustments. Use messaging platforms or email to maintain a reliable means of contact.
+
+Recorded Sessions: Consider recording your sessions so that students can review them at a time that suits their schedule, especially if live sessions are challenging due to time zone differences.
+
+Plan Ahead: Schedule sessions well in advance, providing students with ample notice. This allows them to plan accordingly and adjust their schedules if needed.
+
+Time Zone Awareness: Familiarize yourself with the time zones of your students. Use online tools or apps to easily convert and compare time zones to avoid confusion.
+
+Availability Window: Establish specific time slots during which you are generally available for sessions. This can help students anticipate when they can reach out for assistance.
+
+Set Expectations: Clearly communicate your availability and any limitations regarding time zone differences. Ensure that students understand the planned schedule and how to communicate any issues.
+
+Use Collaborative Tools: Leverage collaborative online tools and resources that enable asynchronous communication, such as discussion forums or shared documents. This allows students to engage at their convenience.

@@ -1,0 +1,14 @@
+Having issues with mic and Camera in online lessons?
+Sometimes, you may be having issues enabling the video Camera and microphone for the 8x8 our partner.
+
+Here are the steps for Chrome and Brave mobile browsers:
+
+Go to settings and then choose site settings;
+
+Open and enable site settings and you want to make sure you enable permission for camera and microphone.
+
+Enable the permission and remove educify from the block list of the sites.
+
+Next, make educify an allowed website and click site preferences.
+
+Next, click allow:

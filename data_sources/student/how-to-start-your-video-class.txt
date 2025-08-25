@@ -1,0 +1,12 @@
+How to Start your video class
+Starting the video class is simple, Just log in to your dashboard and choose the upcoming class. You will see all the options for the class and click on start class:
+
+Mobile view:
+
+Then scroll to the right and you will find the list of menus and see the options: "Accepted", "Start Lesson".
+
+Desktop view: It looks like this in the desktop mode, here you click on "Start lesson"
+
+Once you log in, you will see the following pages on the mobile  for you to choose from: "In App" or "In Browser" options.
+
+Remember to enable microphone and video on your phone browser. See the help topic on enabling the mic and camera here. You can then write your name and click on "Join meeting" button.

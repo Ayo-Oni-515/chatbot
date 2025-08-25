@@ -1,0 +1,12 @@
+How does the Online Video class work?
+How does the Online Video class work?
+
+We have integrated online video teaching capability into the platform and this works per lesson. The lesson can be private or group. All you need to do is Look at the date and time of your next lesson and look for the camera icon and click it.
+
+When you click the icon, another page will open on the desktop or suggestion for using either the browser or the mobile app for JITSI. Remember these:
+
+1. Enable the mic and the camera 
+
+2. Make sure your camera and mic are working and the first person to join will be the "Moderator'.
+
+3. Your name and the lesson name will appear automatically with a timer .

@@ -1,0 +1,48 @@
+What are acceptable payment methods?
+What are acceptable payment methods?
+
+Acceptable Payment Methods
+At Educify, we aim to make payments seamless, secure, and accessible for all users. Below is a breakdown of accepted payment options and guidelines to ensure clarity and trust:
+
+1. Accepted Payment Methods
+We support widely used and reliable payment options to accommodate different preferences:
+
+Credit & Debit Cards: Major cards like Visa, MasterCard, and American Express are accepted
+
+Digital Wallets: Convenient and fast options such as PayPal, Apple Pay, Google Pay, and Samsung Pay are available for instant checkout
+
+Bank Transfers & Direct Debit: Ideal for larger transactions or regions where card use is limited
+
+Buy Now, Pay Later (BNPL): Options like Klarna, Affirm, Afterpay, and Sezzle offer installment plans, improving affordability and flexibility
+
+Localized Methods (for global users): Solutions like Mercado Pago (Latin America), GCash (Philippines), or Paymentwall (which adapts payment options per country) help support regional preferences.
+
+2. Benefits of Offering Multiple Payment Methods
+Providing a variety of payment options enhances:
+
+Convenience & Accessibility: Caters to users globally with different preferences and regional norms
+
+User Experience: Digital wallets significantly reduce checkout friction—some sites report up to a 20% increase in completed transactions.
+
+Security: Payment processors employ encryption, tokenization, and fraud prevention tools to protect financial data.
+
+3. How we Integrate or Use These Methods
+Transactions are handled via secure Payment Service Providers (PSPs) or gateways such as Stripe, PayPal, Braintree, or Paymentwall for broad coverage, including multicurrency and fraud protection.
+
+Payment details are never stored on our servers—they are transmitted directly to the payment processor to maintain compliance with security standards .
+
+Sample Help Article Draft
+Q: What payment methods can I use to pay for lessons or packages?
+A: Here’s what we accept:
+
+Credit/Debit Cards: Visa, MasterCard, American Express
+
+Digital Wallets: PayPal, Apple Pay, Google Pay, Samsung Pay
+
+Bank Transfers / Direct Debit: Available upon request
+
+Installment Options (BNPL): Klarna, Afterpay, Affirm, Sezzle
+
+Local Payment Options: E-wallets like Mercado Pago, GCash, or others may be supported via regional payment providers
+
+Note: Payment processing is managed securely via third-party platforms. We do not store your payment credentials.

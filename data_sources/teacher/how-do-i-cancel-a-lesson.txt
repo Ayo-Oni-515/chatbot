@@ -1,0 +1,18 @@
+How do I cancel a lesson?
+How do I cancel a lesson?
+
+Introduction
+
+Currently, on educify.org, you can reschedule a lesson to be canceled. The platform is working on an update to improve the cancellation and rescheduling features.
+
+What does "cancellation" mean?
+
+A lesson is considered canceled when the student provides advanced notice of cancellation.
+
+For rescheduling, click on the lesson, and you'll find the "Reschedule" button (pencil icon).
+
+To reschedule a lesson, click the "Reschedule" button (pencil icon).
+
+select a date and duration on the calendar page.
+
+Note: This feature is for rescheduling a single lesson

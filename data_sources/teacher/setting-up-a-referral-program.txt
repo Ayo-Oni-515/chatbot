@@ -1,0 +1,54 @@
+Setting up a referral program
+1. Define Your Goals
+Decide what you want the referral program to achieve:
+
+Attract new students
+
+Reward loyal students
+
+Boost lesson package sales
+
+2. Choose Rewards
+For the Referrer (existing student):
+
+Discount on next lesson (e.g., 10–20%)
+
+Free trial lesson after X referrals
+
+Credits toward a lesson package
+
+For the Referral (new student):
+
+Discount on first lesson (e.g., 20%)
+
+Free trial lesson
+
+Welcome bonus package (e.g., 5 lessons, get 1 free)
+
+3. Set Up Program Rules
+Each referral must be a new student who completes at least one lesson.
+
+Limit the number of rewards per month to prevent abuse, or make it scalable (e.g., “up to 5 referrals per month”).
+
+Decide if the discount/credit expires after a certain time.
+
+4. Implement on Educify Platform
+Referral Links or Codes: Give each student a unique code or referral link.
+
+Tracking: Automatically track when a new student signs up using a referral link or code.
+
+Automated Notifications: Notify both parties when a referral is successful and reward is applied.
+
+5. Promote the Program
+Highlight the referral program in the dashboard, email newsletters, and social media.
+
+Use banners like:
+
+“Invite a Friend, Get 1 Free Lesson!”
+
+“Your Friend Saves 20%, You Save 10%!”
+
+6. Monitor & Optimize
+Track metrics: number of referrals, new sign-ups, and lessons booked.
+
+Adjust rewards or rules if participation is low or costs are too high.

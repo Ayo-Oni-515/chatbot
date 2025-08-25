@@ -1,0 +1,66 @@
+Having issues receiving payments?
+Having Issues Receiving Payments?
+We want to ensure your experience is smooth and stress-free. If you’re facing issues with receiving your payments, here’s a breakdown tailored just for Educify platform users:
+
+1. Double-Check Your Payment Details
+Go to your dashboard and verify that the payout method (PayPal or bank transfer) is correctly entered and up to date.
+
+Make sure the PayPal email or bank account information has no typos and remains valid.
+
+2. Account Verification Matters
+For PayPal transfers, ensure your account is confirmed and has no limitations preventing incoming funds.
+
+Some banks may flag transfers if verification is incomplete, so make sure your account is fully verified.
+
+3. Processing Delays Are Common
+Funds may show as “sent” on Educify but may take 2–5 business days to appear in your account due to processing timelines.
+
+4. Returned or Blocked Payments
+If a payment was returned (e.g., due to incorrect details), update your payout information and contact support to request a resend.
+
+Occasionally, third-party processors may block transfers—check for notifications or contact PayPal/bank support if needed.
+
+5. Keep Communication with Support
+If you haven’t received your payment after 3 business days, submit a support ticket with:
+
+The date the payout was initiated
+
+Payment method used
+
+Any transaction or reference number you may have
+
+A short summary of the issue
+
+We’re here to resolve issues and support you every step of the way.
+
+Example: Real Tutor Experiences
+These are common scenarios shared by tutors across platforms:
+
+“I still haven’t received my pay… it was returned... I had to update my bank info and ask them to resend.”
+— Tutor, 
+
+Educify Support FAQ Sample
+Q: My payout shows as sent but the funds aren’t in my account. What should I do?
+A:
+
+Check your payout method in your dashboard for accuracy.
+
+Confirm that your PayPal or bank account is verified and able to receive funds.
+
+Allow 2–5 business days for processing.
+
+If you still haven’t received the payment, contact our Support Team with your payout date, method, and any reference numbers.
+
+▪️You could check the details of the payment methods; check that you have entered the right payment details
+
+▪️You can also try other payment currency, don't worry, we make payment to over 150 country's currency.
+
+▪️Please ensure you let us know if this issue persists by contacting us by:
+
+              By email: support@educify.org
+
+              Giving us a call: +1 403 879 9168
+
+You could also use our chat feature on our help and support
+
+(our agents will be available to help you) .

@@ -1,0 +1,49 @@
+Sending a withdrawal or payment request
+
+Sending a Withdrawal or Payment Request
+Accepted Withdrawal Methods
+You can request your earnings via the following methods, based on your preferred currency:
+
+PayPal
+
+Bank Transfer
+
+These options ensure flexibility and convenience for tutors worldwide.
+
+How to Submit Your Withdrawal Request
+Here’s how to request a payment from your dashboard:
+
+Log in to your Tutor Dashboard.
+
+Navigate to the “Wallet” or “Payouts” section.
+
+Click the “Withdraw” button.
+
+Choose your preferred payment method: PayPal or Bank Transfer.
+
+Enter the required details:
+
+For PayPal: Your linked email address.
+
+For Bank Transfer: Your bank account details.
+
+Enter the withdrawal amount, making sure you meet any minimum threshold (if applicable).
+
+Review and confirm the request.
+
+You'll typically receive your funds within 2–5 business days depending on the method selected.
+
+ FAQ
+Q: How do I request a withdrawal from my earnings?
+A:
+You can withdraw via PayPal or Bank Transfer:
+
+Go to your Tutor Dashboard > Wallet or Payouts.
+
+Click Withdraw.
+
+Select your method and fill in the details.
+
+Enter withdrawal amount and submit.
+
+Funds will be sent within a few business days.

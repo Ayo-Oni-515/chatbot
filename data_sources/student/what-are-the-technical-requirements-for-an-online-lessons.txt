@@ -1,0 +1,18 @@
+What are the technical requirements for an online lessons?
+To start an online lesson with educify, you need to have an internet connection that is reliable and at least a good browser. Click on "Start Lesson" button under "My Classes". This will open a new browser page and you can sign into the lesson for both you and your teacher. See the technical requirements for systems below:
+
+Windows 10 or newer, with:
+
+Windows Operation system
+1.6 gigahertz (GHz) or faster 64-bit (x64) processor;
+4 gigabytes (GB) RAM (64-bit) recommended; minimum 2 GB RAM
+20 GB of available hard disk space (64-bit)
+MacOS 10.13 High Sierra or newer
+
+After clicking on the "Start lesson" button, you will be directed to a page to start your online lesson. The first thing is to allow camera and microphone.
+
+Then, you need to input your name to start the class: Once that is done, "Join Meeting" is activated and you can start meeting/lesson.
+
+If your teacher is not available yet, you will get a message saying:  "Waiting for the moderator"
+
+If your teacher is not online, find him or her in the message box and try and message them:

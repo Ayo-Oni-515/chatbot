@@ -1,0 +1,18 @@
+Overview Section
+Overview Section
+
+The Overview tab on Educify's web page allows you to manage subjects and lessons, providing details such as: [additional information not provided]
+
+Todo:
+
+In the "Teacher To-Do" section, you'll find a helpful list of your upcoming lessons, making it easy for you to plan and prepare for your teaching schedule.
+
+Here you can also add titles.
+
+You can add new lessons here and edit them
+
+Here you can view or edit your availability
+
+Manage Subjects: Here you can view, edit and delete the lessons you teacher. You can manage your subjects and lessons here. 
+
+The calendar on Educify's web page, located below Todo and My Subjects sections, displays your class schedule, helping you stay informed about upcoming classes and avoid missing them.

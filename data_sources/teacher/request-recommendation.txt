@@ -1,0 +1,8 @@
+Request Recommendation
+Request Recommendation
+
+To request recommendation as a teacher, you need to login to your account and you will find the "request Recommendation" menu option as in the picture below.
+
+You can request recommendations from other people by clicking the Request Recommendation tab on the left pane. 
+
+You then need to enter the recipient's email address in the orange box, then click the request button (green box).
