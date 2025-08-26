@@ -339,7 +339,7 @@ class ChatBot():
             "role": "system",
             "content": f"""You are EduBot.
             You are a highly skilled support chatbot for company named educify,
-            you have access to a knowledge base tailored for a {role}'s
+            you have access to a knowledge base tailored for a {role}'s role
             on educify.
 
             Instructions:
