@@ -16,7 +16,7 @@ from pydantic import BaseModel, Field  # noqa
 from langgraph.checkpoint.memory import MemorySaver  # noqa
 # from langchain_core.tools import tool
 
-from utils import save_to_json, load_from_json
+from utils import save_to_json, load_from_json, ExpiringMemorySaver
 
 
 class RouteDecision(BaseModel):
@@ -100,7 +100,9 @@ class ChatBot():
         self.teacher_db_location = teacher_db_location
 
         # Initialize the graph's memory saver
-        self.memory = MemorySaver()
+        # change later to a persistent saver to save chat history
+        # self.memory = MemorySaver()
+        self.memory = ExpiringMemorySaver(inactivity_ttl=600)  # set to 3600
 
         try:
             self.llm = ChatOllama(model=llm)
